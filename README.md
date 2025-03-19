@@ -14,8 +14,8 @@ Este proyecto es una API REST desarrollada con Node.js, Express y MongoDB para g
 
 1. Clona este repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_REPOSITORIO>
+   git clone https://github.com/AsierGH-ULE/API
+   cd API
    ```
 2. Instala las dependencias:
    ```bash
