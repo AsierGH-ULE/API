@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const connectDB = require('./config/db');
 const sensorRoutes = require('./routes/sensors.routes');
 const readingRoutes = require('./routes/readings.routes');
-const authRoutes = require('./routes/auth.routes');
+const authRoutes = require('./routes/auth.route'); // Corrected filename
 const app = express();
 const port = 3000 || process.env.PORT;
 // Conectar a la base de datos
