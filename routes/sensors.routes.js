@@ -5,13 +5,10 @@ const { getAllSensors, createSensor, getSensorById, updateSensor, deleteSensor }
 const router = express.Router();
 
 router.get('/', getAllSensors);
-
-router.post('/', createSensor);
-
 router.get('/:id', getSensorById);
+router.post('/', authMiddleware, createSensor);
+router.put('/:id', authMiddleware, updateSensor);
+router.delete('/:id', authMiddleware, deleteSensor);
 
-router.put('/:id', updateSensor);
-
-router.delete('/:id', deleteSensor);
 
 module.exports = router;
