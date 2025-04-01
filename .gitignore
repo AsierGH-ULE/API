@@ -9,3 +9,5 @@ logs/
 *.log
 # Evitar archivos de caché
 .cache/
+# Evitar archivos SSL
+SSL/
