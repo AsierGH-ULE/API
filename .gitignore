@@ -11,3 +11,6 @@ logs/
 .cache/
 # Evitar archivos SSL
 SSL/
+
+# Evitar CA
+CA/
